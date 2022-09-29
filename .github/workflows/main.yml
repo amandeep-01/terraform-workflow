@@ -7,7 +7,7 @@ on:
     branches:
       - master
 env:
-  region:ap-south-1
+  region: ap-south-1
 jobs:
   job1:
     name: Lint
