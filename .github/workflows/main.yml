@@ -10,7 +10,7 @@ env:
   region: ap-south-1
 jobs:
   job1:
-    name: Lint
+    name: terraform
     runs-on: ubuntu-20.04
     steps:
       - name: Check out code
