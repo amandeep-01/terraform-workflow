@@ -9,7 +9,7 @@ env:
   region: ap-south-1
   bucket: for-tfstate-file
   key1: terraform.tfstate
-  table: for-lock-file
+  table: for-lock-file-1
 jobs:
   job1:
     name: terraform
