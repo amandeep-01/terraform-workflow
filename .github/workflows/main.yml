@@ -39,6 +39,7 @@ jobs:
       - name: Initialize Terraform
         run: |
           cd demo1
+          terraform -re-condigure -backend-config="bucket=$bucket" -backend-config="key=$key1" -backend-config="dynamodb_table=$table"
           terraform init -backend-config="bucket=$bucket" -backend-config="key=$key1" -backend-config="dynamodb_table=$table"         
 
       - name: Plan Terraform
