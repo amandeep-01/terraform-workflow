@@ -48,6 +48,6 @@ jobs:
       - name: Apply Terraform
         run: |
           cd demo1
-          terraform apply -lock=false -auto-approve
+          terraform apply -lock=false -auto-approve 
                
      
