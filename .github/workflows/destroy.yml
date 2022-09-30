@@ -40,5 +40,6 @@ jobs:
         run: |
           cd demo1
           terraform destroy -lock=false -auto-approve 
+          
                
      
