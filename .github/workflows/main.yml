@@ -44,7 +44,7 @@ jobs:
       - name: Plan Terraform
         run: |
           cd demo1
-          terraform plan         
+          terraform plan -lock=false        
       - name: Apply Terraform
         run: |
           cd demo1
